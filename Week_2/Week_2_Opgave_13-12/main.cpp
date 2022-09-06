@@ -22,5 +22,5 @@ int main() {
 }
 
 /*
-berekent btw op een bedrag en print dat, maar als het bedrag groot is wordt het afgerond, weet niet waarom...
+Neemt een bedrag, trekt btw er vanaf en print zowel het bedrag zonder btw als het btw bedrag
 */
