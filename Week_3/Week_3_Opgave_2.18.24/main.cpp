@@ -13,12 +13,12 @@ int main() {
 	long double oppervlakteppinmeter = totaaloppinmeter / bevolking;
 
 	cout << setw(15) << "Jaar:";
-	cout << setw(15) << "Bevolking:";
+	cout << setw(20) << "Bevolking:";
 	cout << setw(25) << "Oppervlakte pp in m: \n";
 	
 	while (oppervlakteppinmeter > 10 ) {
 		cout << setw(15) << jaar;
-		cout << setw(15) << bevolking;
+		cout << setw(20) << bevolking;
 		cout << setw(15) << oppervlakteppinmeter << "\n";
 		
 		bevolking *= groeifactor;
