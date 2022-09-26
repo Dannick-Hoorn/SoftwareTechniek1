@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-	int count = 0;
-	while (count < 69421) {
+	long long count = 0;
+	while (1) {
 		std::cout << count << '\n';
 		count++;
 	}
