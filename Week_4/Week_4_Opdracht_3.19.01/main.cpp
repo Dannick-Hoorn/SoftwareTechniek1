@@ -8,6 +8,7 @@ int main() {
 	double b;
 	double c;
 	double disc;
+	double test;
 
 	cout << "Voer a in: ";
 	cin >> a;
