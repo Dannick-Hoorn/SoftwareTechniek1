@@ -1,16 +1,14 @@
 #include<iostream>
+#include"wiskunde.h"
 
 using namespace std;
 
-double berekenGemiddelde(double a, double b);
-
-
 int main(void) {
-	cout << berekenGemiddelde(35, 698);
+
+	for (int i = 0; i < 200; i++) {
+		cout << berekenGemiddelde(i, i*i) << endl;
+	
+	}
 	return 0;
 }
 
-double berekenGemiddelde(double a, double b) {
-	double c = (a + b) / 2;
-	return c;
-}
