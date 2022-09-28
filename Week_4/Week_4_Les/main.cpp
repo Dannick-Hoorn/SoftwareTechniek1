@@ -1,20 +1,16 @@
 #include<iostream>
-#include<iomanip>
-#include<cmath>
 
 using namespace std;
 
-int main() {
-	double x = 0;
-	double i = 0;
+double berekenGemiddelde(double a, double b);
 
-	cout << "Voer getal in: ";
-	cin >> i;
-	cin.get();
 
-	x = sqrt(i);
-
-	cout << "De wortel van " << i << " is " << x << "\n";
-
+int main(void) {
+	cout << berekenGemiddelde(35, 698);
 	return 0;
+}
+
+double berekenGemiddelde(double a, double b) {
+	double c = (a + b) / 2;
+	return c;
 }
