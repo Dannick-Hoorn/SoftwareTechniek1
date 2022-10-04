@@ -20,8 +20,8 @@ int main() {
 
 void fac(int n, long long& resultaat) {
 	int count = 0;
-	int a = 1;
-	if (n > 0 && n < 17) {
+	long long a = 1;
+	if (n > 0 && n < 26) {
 		while (count != n) {
 			a *= (count + 1);
 			count++;
@@ -39,4 +39,4 @@ void fac(int n, long long& resultaat) {
 		cout << "Te groot getal ingevoerd" << endl;
 	}
 }
-//je kunt tot 33 gaan.
+//je kunt tot 26 gaan.
