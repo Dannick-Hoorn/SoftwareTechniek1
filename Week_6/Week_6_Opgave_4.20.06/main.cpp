@@ -3,11 +3,25 @@
 using namespace std;
 
 int main() {
-	int a[15] = { 10, 20, 30, 30, 30, 14, 14 ,14 ,14, 14, 14, 14, 14, 14, 14 };
+	int a[15] = { 7685946,3,2,3,2,1,2,3,2,1,2,3,2,1,0 };
 	int arrayLengte = sizeof(a) / sizeof(int);
 
-	for (int i; i < arrayLengte; i++) {
+	int max = 0, count = 0;
+
+	for (int i = 0; i < arrayLengte; i++) {
+		if (a[i] > max) {
+			max = a[i];
+		}
 
 	}
-	
+
+	for (int i = 0; i < arrayLengte; i++) {
+		if (a[i] == max) {
+			count++;
+		}
+	}
+
+	cout << "maximum: " << max << endl;
+	cout << "maximum komt " << count << " keer voor";
+
 }
