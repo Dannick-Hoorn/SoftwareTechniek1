@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 
 	const int MaxAantal = 10;
-	int a[MaxAantal] = { 4,8,2,3,5,17,7,99,3,12 };
+	int a[MaxAantal] = { 3,8,2,6,5,17,7,99,3,12 };
 	const int lengte = sizeof(a) / sizeof(int);
 	int getal;
 	char antwoord;
