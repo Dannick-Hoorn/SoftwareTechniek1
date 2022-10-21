@@ -38,7 +38,10 @@ void printArray(int getallen, int priem[]) {
 	cout << endl;
 }
 
-void draaiArrayOm(int priem[], int getallen) {
-	// ??????????
-	// ??????????
+void draaiArrayOm(int getallen, int priem[]) {
+	for (int i = 0; i < getallen / 2; i++) {
+		int geheugen = priem[getallen - 1 - i];
+		priem[getallen - 1 - i] = priem[i];
+		priem[i] = geheugen;
+	}
 }
