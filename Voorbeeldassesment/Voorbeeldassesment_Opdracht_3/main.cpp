@@ -14,6 +14,6 @@ int main() {
 
 	maakArray(getallen, priem);
 	printArray(getallen, priem);
-	draaiArrayOm(priem, getallen);
+	draaiArrayOm(getallen, priem);
 	printArray(getallen, priem);
 }
