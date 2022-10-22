@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool isPriemgetal(int num) {
+bool isPriemgetal(int num) {//algoritme voor priemgetallen (zie opdracht 1)
 	for (int i = 2; i <= num / 2; i++)
 	{
 		if (num % i == 0)
@@ -15,7 +15,7 @@ bool isPriemgetal(int num) {
 	return true;
 }
 
-void maakArray(int getallen, int priem[]) {
+void maakArray(int getallen, int priem[]) { // als priemgetal = true, voeg toe aan de array, als false: trek 1 van i af zodat de array niet verder gaat
 	int num = 2;
 	bool result;
 
@@ -31,7 +31,7 @@ void maakArray(int getallen, int priem[]) {
 	}
 }
 
-void printArray(int getallen, int priem[]) {
+void printArray(int getallen, int priem[]) {// simpele array print functie
 	for (int i = 0; i != getallen; i++) {
 		cout << priem[i] << ", ";
 	}
